@@ -1,28 +1,11 @@
 Запуск системы
 
-Установите необходимые зависимости:
-
-go get github.com/Knetic/govaluate
-go get -u github.com/gin-gonic/gin
-go get -u github.com/jmoiron/sqlx
-go get -u github.com/mattn/go-sqlite3
-
-Все библиотеки, которые нужны:
-
-"github.com/Knetic/govaluate"
-	_ "github.com/Knetic/govaluate"
-	"github.com/gin-contrib/cors"
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
-	"github.com/jmoiron/sqlx"
-	_ "github.com/mattn/go-sqlite3"
-
+Можно перенести содержимое такой командой в терминале (VsCode)-> git clone https://github.com/bot-tg-simple/Distributed-Arithmetic-Expression-Calculator
+Затем переходим в директорию Distributed-Arithmetic-Expression-Calculator командой -> cd Distributed-Arithmetic-Expression-Calculator
+А затем вызваем следующее -> go run main.go
+После открываем файл index.html(можно открыть папку и щёлкнуть пару раз на index.html) и вычисляем согласно дальнейшей инструкции. По всем вопросам -> контакты в ТГ ниже(в самом конце).
 
 Запустите приложение:
-
-{Может потребоваться(а может и не потребоваться) выполнить следующие команды(я так делал при инициализации проекта):
-1) go mod init program(program - это название для примера)
-2) go build (перед этим, вроде, надо пакеты загрузить все нужные); 3) а затем запускать main.go}(после этих действий должны появиться файлы program(если была команда go mod init program), go.mod, go.sum.
 
 go run main.go(если, конечно, вы назвали файл программы main.go)
 
@@ -235,12 +218,6 @@ P.S. его можно будет снова запустить.
 Страница Настройка расчёта пока не работает.
 
 На странице Вычислительные ресурсы можно нажать на кнопку Check и увидеть есть ли соединение с сервером. Если не прошло минуты с последнего пинга то будет зеленый статус, а если прошло больше минуты будет уведомление об остановке сервера и красный статус, но и сервер, конечно, завершит работу.
-
-
-!!!
-
-При переносе содержимого Github в свою среду разработки стоит называть файлы именно так, как они и названы на Github, чтобы все работало и отображалось корректно, иначе будут ошибки и что-то скорее всего работать не будет.(Это очень важно!)
-
 
 !!!
 
