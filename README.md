@@ -222,7 +222,7 @@ curl -X GET http://localhost:8080/ping
 P.S. его можно будет снова запустить.
 
 
-Также есть интерфейс(файлы - index.html, index1.html, index2.html, index3.html, styles.css, script.js, script1.js, script2.js)
+Также есть интерфейс(файлы - index.html, index1.html, index2.html, index3.html, styles.css, script.js, script1.js, script2.js) В браузере надо открывать файл index.html (например, в папке проекта, куда вы перенесёте содержимое, кликнуть на index.html и он откроется в браузере)
 
 На странице Калькулятор надо вводить выражение в поле и затем нажать Enter:
 лучше вводить простые выражения типа: 2-2; 2*2
@@ -246,3 +246,7 @@ P.S. его можно будет снова запустить.
 
 Если что-то пошло не так, то лучше остановить систему в терминале (VSCode -> ^c (то есть control + C(Mak); Ctrl + C(Windows)));
 затем удалить базу данных (expressions.db) и перезапустить систему (go run main.go).
+
+Мои контакты в ТГ на случай вопросов -> https://t.me/ZOV22_2023
+
+
