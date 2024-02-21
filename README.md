@@ -2,7 +2,7 @@
 
 Можно перенести содержимое такой командой в терминале (VsCode)-> git clone https://github.com/bot-tg-simple/Distributed-Arithmetic-Expression-Calculator
 Затем переходим в директорию Distributed-Arithmetic-Expression-Calculator командой -> cd Distributed-Arithmetic-Expression-Calculator
-А затем вызваем следующее -> go run main.go
+А затем вызваем следующее -> go run main.go (чтобы подгрузить библиотеки перед запуском -> go mod download; ещё нужна библиотека github.com/Knetic/govaluate(она установится с командой go mod download, но если что-то не так -> go get github.com/Knetic/govaluate)
 После открываем файл index.html(можно открыть папку и щёлкнуть пару раз на index.html) и вычисляем согласно дальнейшей инструкции. По всем вопросам -> контакты в ТГ ниже(в самом конце).
 
 Запустите приложение:
