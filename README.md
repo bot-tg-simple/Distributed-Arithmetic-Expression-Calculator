@@ -5,6 +5,24 @@
 А затем вызваем следующее -> go run main.go (чтобы подгрузить библиотеки перед запуском -> go mod download; ещё нужна библиотека github.com/Knetic/govaluate(она установится с командой go mod download, но если что-то не так -> go get github.com/Knetic/govaluate)
 После открываем файл index.html(можно открыть папку и щёлкнуть пару раз на index.html) и вычисляем согласно дальнейшей инструкции. По всем вопросам -> контакты в ТГ ниже(в самом конце).
 
+Установите необходимые зависимости:(если не получится через go mod download)
+
+go get github.com/Knetic/govaluate
+go get -u github.com/gin-gonic/gin
+go get -u github.com/jmoiron/sqlx
+go get -u github.com/mattn/go-sqlite3
+
+Все библиотеки, которые нужны:
+
+"github.com/Knetic/govaluate"
+	_ "github.com/Knetic/govaluate"
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
+	"github.com/jmoiron/sqlx"
+	_ "github.com/mattn/go-sqlite3"
+
+
 Запустите приложение:
 
 go run main.go(если, конечно, вы назвали файл программы main.go)
